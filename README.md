@@ -1,5 +1,7 @@
 # concurrency
 
+이성주 seongjoo@codebasic.io
+
 ## 요구사항
 
 1. C++11을 지원하는 컴파일러 (예: gcc, Visual Studio 2015)
@@ -13,9 +15,9 @@ Docker gcc
 2. gcc Docker image 설치 (https://hub.docker.com/_/gcc/)
 
     $ docker pull gcc
-    
+
 3. Docker 빌드/실행  
 
     $ python docker_run.py build *g++ options*
-    
+
     $ python docker_run.py run *path*
